@@ -317,3 +317,6 @@ h3 { line-height: 1.25; }
   .contact-dialog-card { padding: 1.45rem; }
   .contact-choice-grid { grid-template-columns: 1fr; }
 }
+
+/* Anchor offsets for sticky navigation */
+#contact, #certifications { scroll-margin-top: 96px; }
