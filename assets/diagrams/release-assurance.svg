@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+<title id="title">Release assurance workflow</title><desc id="desc">A circular workflow with readiness review, deployment validation, smoke tests, observability checks, decision and recovery, and learning.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4da6ff"/><stop offset="1" stop-color="#42d6ce"/></linearGradient></defs>
+<rect width="1200" height="430" rx="24" fill="#071523"/>
+<g font-family="Arial, sans-serif" fill="#eaf5fc">
+<text x="600" y="42" text-anchor="middle" font-size="22" font-weight="700">Release Assurance & Production Validation</text>
+<text x="600" y="68" text-anchor="middle" font-size="13" fill="#93a9b8">A reliability gate from change readiness through verified production behavior</text>
+<g transform="translate(75 120)">
+  <g fill="#102b43" stroke="#2d668a">
+    <rect x="0" y="0" width="150" height="120" rx="16"/><rect x="180" y="0" width="150" height="120" rx="16"/><rect x="360" y="0" width="150" height="120" rx="16"/><rect x="540" y="0" width="150" height="120" rx="16"/><rect x="720" y="0" width="150" height="120" rx="16"/><rect x="900" y="0" width="150" height="120" rx="16"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="75" y="38" font-size="15" font-weight="700">1. Readiness</text><text x="75" y="64" font-size="12" fill="#aec0cb">Dependencies</text><text x="75" y="84" font-size="12" fill="#aec0cb">Risk / rollback</text>
+    <text x="255" y="38" font-size="15" font-weight="700">2. Deploy</text><text x="255" y="64" font-size="12" fill="#aec0cb">Pipeline checks</text><text x="255" y="84" font-size="12" fill="#aec0cb">Artifact / config</text>
+    <text x="435" y="38" font-size="15" font-weight="700">3. Smoke Test</text><text x="435" y="64" font-size="12" fill="#aec0cb">Critical APIs</text><text x="435" y="84" font-size="12" fill="#aec0cb">User journeys</text>
+    <text x="615" y="38" font-size="15" font-weight="700">4. Observe</text><text x="615" y="64" font-size="12" fill="#aec0cb">Logs / metrics</text><text x="615" y="84" font-size="12" fill="#aec0cb">SQL / dependencies</text>
+    <text x="795" y="38" font-size="15" font-weight="700">5. Decide</text><text x="795" y="64" font-size="12" fill="#aec0cb">Continue / rollback</text><text x="795" y="84" font-size="12" fill="#aec0cb">Impact assessment</text>
+    <text x="975" y="38" font-size="15" font-weight="700">6. Improve</text><text x="975" y="64" font-size="12" fill="#aec0cb">Document findings</text><text x="975" y="84" font-size="12" fill="#aec0cb">Prevent recurrence</text>
+  </g>
+  <g stroke="url(#g)" stroke-width="4"><path d="M150 60 H180"/><path d="M330 60 H360"/><path d="M510 60 H540"/><path d="M690 60 H720"/><path d="M870 60 H900"/></g>
+  <g fill="#42d6ce"><path d="M171 53 l10 7 -10 7z"/><path d="M351 53 l10 7 -10 7z"/><path d="M531 53 l10 7 -10 7z"/><path d="M711 53 l10 7 -10 7z"/><path d="M891 53 l10 7 -10 7z"/></g>
+</g>
+<rect x="235" y="310" width="730" height="50" rx="18" fill="#103248" stroke="#2a7696"/>
+<text x="600" y="333" text-anchor="middle" font-size="13" fill="#bdd0db">Evidence: Azure DevOps • Grafana • OpenSearch • SQL • service health • stakeholder updates</text>
+<text x="600" y="350" text-anchor="middle" font-size="12" fill="#42d6ce">Goal: release with confidence and detect unexpected production behavior early</text>
+</g>
+</svg>
