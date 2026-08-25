@@ -58,4 +58,3 @@ Use the repository name `sai-krishna` so the public link remains clean:
 ```text
 https://skrish2030.github.io/sai-krishna/
 ```
-# SaiKrishna
